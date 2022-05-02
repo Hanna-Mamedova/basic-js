@@ -12,15 +12,6 @@ const { NotImplementedError } = require('../extensions/index.js');
  * createDreamTeam(['Matt', 'Ann', 'Dmitry', 'Max']) => 'ADMM'
  * createDreamTeam(['Olivia', 1111, 'Lily', 'Oscar', true, null]) => 'LOO'
  *
- * +++ проверить members == массив
- * +++ получить каждый item
- * +++??? проверить item == string
- * whitespaces
- * +++ получить первую букву каждого item
- * +++ объединить в строку
- * +++ отсортировать строку в алфовитном порядке
- * +++ сделать upperCase
- * +++ вернуть res
  * 
  */
  function createDreamTeam(members) {
